@@ -1,8 +1,11 @@
-import React, {useState}  from 'react';
+import {useState}  from 'react';
 import './loginForm.css';
 import { Link , useNavigate} from 'react-router-dom';
 import { FaUserCircle } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
+import { FaUnlock } from "react-icons/fa";
+
+
 import axios from "axios";
 
 const LoginForm = () => {
@@ -14,6 +17,13 @@ const LoginForm = () => {
     enrollmentId:"",
     password:""
   });
+
+  //pass toggle
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword((prevState) => !prevState);
+  };
 
   
   const navigate = useNavigate(); //Initialize useNavigate hook
@@ -87,10 +97,13 @@ const LoginForm = () => {
           {errors.enrollmentId && <p className="error">{errors.enrollmentId}</p>}
         </div>
         <div className='input-box'>
-          <input type="password" placeholder="Password" name="password" value={value.password}
-              onChange={handleChange}
+          <input type={showPassword ? "text" : "password"}
+            placeholder="Enter your password" name="password" value={value.password}
+              onChange={handleChange} 
               required />
-          <FaLock className='icons' />
+            <div type="button" onClick={togglePasswordVisibility}>
+            {showPassword ? <FaUnlock className='icons' /> : <FaLock className='icons' />}
+            </div>
           {errors.password && <p className="error">{errors.password}</p>}
         </div>
         <div className='remember-forget'>
@@ -101,7 +114,7 @@ const LoginForm = () => {
         <button type="submit">Login</button>
 
         <div className="register-link">
-            <p>Don't have an account? <Link to= "/user/registration">Register</Link></p>
+            <p>Don&apos;t have an account? <Link to= "/user/registration">Register</Link></p>
         </div>
         
       </form>

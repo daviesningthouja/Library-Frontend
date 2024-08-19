@@ -55,6 +55,9 @@
 
 
 }
+.input-box input:focus{
+    background: transparent;
+}
 .input-box input::placeholder{
     
     color: #fff;

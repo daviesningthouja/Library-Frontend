@@ -1,5 +1,7 @@
-import lib from "../../../assets/lib.png";
+import React from "react";
+import lib from "./assets/lib.png";
 import "./registration.css";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Registration = () => {
