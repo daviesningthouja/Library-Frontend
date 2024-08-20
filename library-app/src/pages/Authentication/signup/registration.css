@@ -1,5 +1,5 @@
  .wrapper_signup {
-     background-color: #262b55;
+     background-color: #717ad6;
  }
 
  .navbar_signup{
@@ -28,7 +28,7 @@
 
  .signup_container {
      display: flex;
-     background-color: rgb(203, 215, 226);
+     background-color: white;
      margin: 0 auto;
 
 
@@ -40,7 +40,7 @@
  }
 
  .exist_user{
-     background-color: aliceblue;
+     background-color: white;
      margin: 0 auto;
 
 
@@ -64,7 +64,7 @@
      font-family: arial;
      font-size: 50px;
      padding-top: 4%;
-     background-color: aliceblue;
+     background-color:white;
      border-radius: 12px;
      font-weight: bolder;
 
@@ -74,8 +74,8 @@
      text-align: center;
 
      gap: 1px;
-     background-color: aliceblue;
-     color: rgb(172, 163, 163);
+     background-color: white;
+     color: rgb(51, 49, 49);
      font-family: arial;
 
  }
@@ -156,7 +156,7 @@
      align-items: center;
      padding: 0% 4% 4% 4%;
      color: rgb(104, 85, 224);
-     background-color: aliceblue;
+     background-color: white;
      border-radius: 12px;
  }
 

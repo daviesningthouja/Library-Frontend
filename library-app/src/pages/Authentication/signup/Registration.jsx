@@ -31,7 +31,7 @@ const Registration = () => {
                 <input type="text" placeholder="Enrollment Number" />
               </div>
               <div className="signup_select">
-                <label htmlFor="selectOption">Choose Department:</label>
+                <label htmlFor="selectOption">Department:</label>
                 <select name="" id="" placeholder="Department">
                   <option value="">Civil Engineering</option>
                   <option value="">Computer Science and Engineering</option>
@@ -43,7 +43,7 @@ const Registration = () => {
                 </select>
               </div>
               <div className="user_data">
-                <input type="text" placeholder="Contact Number" />
+                <input type="" placeholder="Contact Number" />
               </div>
 
               <div className="user_data">
