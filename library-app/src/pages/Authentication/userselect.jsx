@@ -1,10 +1,24 @@
 import React from 'react'
 import './userselect.css'
+import {Link} from 'react-dom'
 
 const userselect = () => {
   return (
     <div>
-      Hello world
+      <div className="select">
+        
+        <div className="select2">
+          <div className="user">
+            <a href=""> <button>Log In as Administrator</button></a>
+            
+            
+          </div>
+          <div className="user">
+            <a href="/user/Login"><button>Log In as Student</button></a>
+            
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

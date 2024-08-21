@@ -1,0 +1,77 @@
+body
+{
+    background-color: white;
+}
+.select
+{
+    
+    margin: auto;
+    padding: 2%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative; /* Establishes a positioning context */
+     height: 100vh;
+    
+}
+.select2
+{
+    margin-top:auto;
+    width: 50%;
+    
+    padding: 2%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;  /* Remove from normal document flow */
+  top: 50%;            /* Move down from the top */
+  left: 50%;           /* Move right from the left */
+  transform: translate(-50%, -50%); /* Center the element */
+  width: 300px;        /* Fixed width */
+  height: 200px;       /* Fixed height */
+  
+  color: white;        /* Text color */
+  display: flex;       /* Use flexbox inside for text centering */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+    
+    
+}
+.user
+{
+    max-width: 100%;
+    padding: 4%;
+}
+button
+{
+    width: 200px;        
+  
+    height: 70px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    
+    
+    
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #1ED760;
+    
+   
+    
+
+}
+button:hover
+{
+    background-color: #218838; /* Darker green */
+    color: #d4edda; 
+}
