@@ -42,7 +42,7 @@ body
     max-width: 100%;
     padding: 4%;
 }
-button
+.bttn
 {
     width: 200px;        
   
@@ -70,7 +70,7 @@ button
     
 
 }
-button:hover
+.bttn.button:hover:hover
 {
     background-color: #218838; /* Darker green */
     color: #d4edda; 
