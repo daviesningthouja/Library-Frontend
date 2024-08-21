@@ -4,10 +4,9 @@ import App from './App.jsx'
 
 
 import './index.css'
-import {Home, NoPage, LoginForm, Registration, Dashboard} from './pages';
+import {Home, NoPage, LoginForm, Registration, Dashboard, Userselect} from './pages';
 // Router
-import {
-createBrowserRouter,RouterProvider,} from "react-router-dom";
+import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +33,10 @@ const router = createBrowserRouter([
   {
     path:"/user/registration",
     element: <Registration/>
+  },
+  {
+    path:"/user/select",
+    element: <Userselect/>
   }
 ]);
 

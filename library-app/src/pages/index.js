@@ -7,4 +7,6 @@ export {default as Topbar} from './Global/topbar.jsx';
 export {default as Sidebar} from './Global/sidebar.jsx';
 export {default as Dashboard} from './Dashboard/dashboard.jsx';
 export {default as DashboardLayout} from './layout/DashboardLayout.jsx';
+export {default as Userselect} from './Authentication/userselect.jsx';
+
 
