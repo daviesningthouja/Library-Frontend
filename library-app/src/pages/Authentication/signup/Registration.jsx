@@ -1,8 +1,16 @@
 import lib from "../../../assets/lib.png";
 import "./registration.css";
+
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Registration = () => {
+  
+    const [showPassword, setShowPassword] = useState(false);
+  
+    const togglePasswordVisibility = () => {
+      setShowPassword(!showPassword);
+    };
   return (
     <div className="wrapper_signup">
       <div className="navbar_signup">
@@ -43,11 +51,14 @@ const Registration = () => {
                 </select>
               </div>
               <div className="user_data">
-                <input type="" placeholder="Contact Number" />
+                <input type="text" placeholder="Contact Number" />
               </div>
 
               <div className="user_data">
-                <input type="password" placeholder="Password" />
+                <input type={showPassword ? 'text' : 'password'} placeholder="Password" />
+                <button type="button" onClick={togglePasswordVisibility}>
+        {showPassword ? 'Hide' : 'Show'} Password
+      </button>
               </div>
             </form>
           </div>
