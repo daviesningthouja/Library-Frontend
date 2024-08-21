@@ -12,7 +12,8 @@ const Registration = () => {
       setShowPassword(!showPassword);
     };
   return (
-    <div className="wrapper_signup">
+    <div className="page">
+    <div>
       <div className="navbar_signup">
         <div className="navbar_logo">LibraryManagementSystem</div>
       </div>
@@ -51,14 +52,11 @@ const Registration = () => {
                 </select>
               </div>
               <div className="user_data">
-                <input type="text" placeholder="Contact Number" />
+                <input type="" placeholder="Contact Number" />
               </div>
 
               <div className="user_data">
-                <input type={showPassword ? 'text' : 'password'} placeholder="Password" />
-                <button type="button" onClick={togglePasswordVisibility}>
-        {showPassword ? 'Hide' : 'Show'} Password
-      </button>
+                <input type="password" placeholder="password" />
               </div>
             </form>
           </div>
@@ -70,6 +68,7 @@ const Registration = () => {
           <img src={lib} alt="library" />
         </div>
       </div>
+    </div>
     </div>
   );
 };

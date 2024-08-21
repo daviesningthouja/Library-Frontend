@@ -9,12 +9,12 @@ const userselect = () => {
         
         <div className="select2">
           <div className="user">
-            <a href=""> <button className='bttn'>Log In as Administrator</button></a>
+            <a href=""> <button className='bttn'><h2>Log In</h2> as Administrator</button></a>
             
             
           </div>
           <div className="user">
-            <a href="/user/Login"><button className='bttn'>Log In as Student</button></a>
+            <a href="/user/Login"><button className='bttn'><h2>Log In</h2> as Student</button></a>
             
           </div>
         </div>

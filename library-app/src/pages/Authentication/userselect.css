@@ -7,12 +7,9 @@ body
     
     margin: auto;
     padding: 2%;
-    display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative; /* Establishes a positioning context */
+   
      height: 100vh;
-    
+    font-family: 'Times New Roman';
 }
 .select2
 {
@@ -20,9 +17,8 @@ body
     width: 50%;
     
     padding: 2%;
-    display: flex;
-     justify-content: center;
-     align-items: center;
+    
+     
      position: absolute;  /* Remove from normal document flow */
   top: 50%;            /* Move down from the top */
   left: 50%;           /* Move right from the left */
@@ -30,7 +26,7 @@ body
   width: 300px;        /* Fixed width */
   height: 200px;       /* Fixed height */
   
-  color: white;        /* Text color */
+  
   display: flex;       /* Use flexbox inside for text centering */
   justify-content: center; /* Center text horizontally */
   align-items: center; /* Center text vertically */
@@ -41,12 +37,13 @@ body
 {
     max-width: 100%;
     padding: 4%;
+    
 }
 .bttn
 {
     width: 200px;        
   
-    height: 70px;
+    height: 200px;
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -56,22 +53,23 @@ body
     
     
     border: 1px solid transparent;
-    letter-spacing: 2px;
+    
     min-width: 160px;
     text-transform: uppercase;
     white-space: normal;
-    font-weight: 700;
-    border-radius: 2px;
-    padding: 17px 48px;
-    color: #fff;
-    background-color: #1ED760;
     
-   
+    border-radius: 21px;
+    padding: 17px 48px;
+    color: #080808;
+    background-color: white;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0  rgb(91, 107, 112);
     
 
 }
-.bttn.button:hover:hover
+.bttn:hover
 {
-    background-color: #218838; /* Darker green */
-    color: #d4edda; 
+    background-color: #a5e6a5;
+    color: #4c504d; 
+    transition-duration: 0.2s;
 }
