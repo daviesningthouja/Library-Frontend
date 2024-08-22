@@ -4,7 +4,7 @@ import App from './App.jsx'
 
 
 import './index.css'
-import {Home, NoPage, LoginForm, Registration, Dashboard, Userselect} from './pages';
+import {Home, NoPage, LoginForm, Registration, Dashboard, Userselect, LoginAdmin} from './pages';
 // Router
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 
@@ -37,7 +37,11 @@ const router = createBrowserRouter([
   {
     path:"/user/select",
     element: <Userselect/>
-  }
+  },
+  {
+    path:"/user/Admin",
+    element:<LoginAdmin/>
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

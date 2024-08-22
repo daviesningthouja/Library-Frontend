@@ -1,7 +1,9 @@
-.page
+body{
+    background-color: black;
+}.page
 {
     background-color: aquamarine;
-    background-position: 0%;
+    
 }
  .navbar_signup{
      font-family: Arial;
