@@ -1,6 +1,6 @@
 
 .wrapper_userselect{
-    background-color: white;
+    background-color: rgb(235, 226, 175);
 }
 .select
 {
@@ -42,8 +42,8 @@
 .bttn
 {
     width: 200px;        
-  
-    height: 200px;
+    
+    height: 300px;
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -58,7 +58,7 @@
    
     
     
-    border-radius: 21px;
+    border-radius: 8px;
     padding: 17px 48px;
     color: #080808;
     background-color: white;
@@ -66,6 +66,10 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0  rgb(91, 107, 112);
     
 
+}
+.bttn img{
+    width: 70px;
+    height: 70px;
 }
 .bttn:hover
 {
