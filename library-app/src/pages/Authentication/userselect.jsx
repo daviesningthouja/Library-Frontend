@@ -4,7 +4,7 @@ import {Link} from 'react-dom'
 
 const userselect = () => {
   return (
-    <div>
+    <div className='wrapper_userselect'>
       <div className="select">
         
         <div className="select2">

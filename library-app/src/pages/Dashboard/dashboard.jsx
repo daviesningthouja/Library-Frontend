@@ -11,14 +11,14 @@ function Dashboard() {
             <h1>Dashboard</h1>
             <ul className="breadcrumb">
               <li>
-                <a href="#">Analytics</a>
+                <a href="#" className="active">Department</a>
               </li>
               /
-              <li>
+              {/* <li>
                 <a href="#" className="active">
                   Shop
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <a href="#" className="report">
@@ -29,30 +29,36 @@ function Dashboard() {
 
         <ul className="insights">
           <li>
-            <i className="bx bx-calendar-check"></i>
+            <i className='bx bx-code-alt'></i>
             <span className="info">
               <h3>1,074</h3>
-              <p>Paid Order</p>
+              <p>Computer Science</p>
             </span>
           </li>
           <li>
             <i className="bx bx-show-alt"></i>
             <span className="info">
               <h3>3,944</h3>
-              <p>Site Visit</p>
+              <p>Civil</p>
             </span>
           </li>
           <li>
             <i className="bx bx-line-chart"></i>
             <span className="info">
               <h3>14,721</h3>
-              <p>Searches</p>
+              <p>Mechanical</p>
             </span>
           </li>
           <li><i className='bx bx-dollar-circle'></i>
             <span className="info">
             <h3>$6,742</h3>
-            <p>Total Sales</p>
+            <p>Electronic & communication</p>
+            </span >
+          </li>
+          <li><i className='bx bxs-book'></i>
+            <span className="info">
+            <h3>$6,742</h3>
+            <p>Electrical</p>
             </span >
           </li>
         </ul>
