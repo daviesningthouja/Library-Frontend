@@ -6,10 +6,11 @@ import { useState } from "react";
 
 const Registration = () => {
   
-    const [showPassword, setShowPassword] = useState(false);
-  
-    const togglePasswordVisibility = () => {
-      setShowPassword(!showPassword);
+  const [passwordVisible, setPasswordVisible] = useState(false);
+
+  // Toggle password visibility
+  const togglePasswordVisibility = () => {
+    setPasswordVisible(!passwordVisible);
     };
   return (
     <div className="page">
@@ -56,7 +57,8 @@ const Registration = () => {
               </div>
 
               <div className="user_data">
-                <input type="password" placeholder="password" />
+               <input type="password" placeholder="password" />        
+      
               </div>
             </form>
           </div>
