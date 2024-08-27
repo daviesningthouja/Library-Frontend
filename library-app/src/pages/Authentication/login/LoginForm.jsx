@@ -88,7 +88,10 @@ const LoginForm = () => {
     <main className='body'>
     <div className='wrapper'>
       <form onSubmit={handleSubmit}>
-        <h1>Login</h1>
+        <h1>Login 
+        </h1>
+        <h2><a href="/user/select">hskdh</a></h2>
+        
         <div className="input-box">
           <input type="text" placeholder='EnrollmentId' name="enrollmentId" value={value.enrollmentId}
               onChange={handleChange}
