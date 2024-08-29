@@ -21,5 +21,6 @@ export {default as Admin_Dash} from "./Dashboard/admin_dashboard/admin_dash.jsx"
 
 export {default as Userselect} from './Authentication/userselect.jsx';
 export {default as LoginAdmin} from './Authentication/login/loginAdmin.jsx';
-export {default as LoginForm} from './Authentication/login/LoginForm.jsx'
+export {default as LoginForm} from './Authentication/login/LoginForm.jsx';
+export {default as UserRegistration} from './Authentication/signup/Registration.jsx';
 

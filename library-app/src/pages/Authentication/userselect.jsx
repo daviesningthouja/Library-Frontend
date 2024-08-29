@@ -11,7 +11,7 @@ const userselect = () => {
         
         <div className="select2">
           <div className="user">
-            <a href="/user/Admin"> <button className='bttn'>
+            <a href="/user/Login"> <button className='bttn'>
               <img src={ad} alt="" /><h2>ADMIN</h2> as Administrator</button></a>
             
             
