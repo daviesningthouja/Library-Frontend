@@ -1,17 +1,18 @@
 .body{
-    background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+   /* background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+   /* background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
     /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+   /* background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
     /* ie 10+ */
-    background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+   /* background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
     /* global 92%+ browsers support */
-    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+   /* background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);*/
+   background-color:  rgb(235, 226, 175);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +23,10 @@
 }
 .wrapper{
     width:420px;
-    background: rgb(244, 217, 225,.09);
-    border: 2px solid rgb(255,255,255,.2);
+    background: #385165;
+    border: 2px solid rgba(255, 255, 255, 0.604);
     backdrop-filter: blur(30px);
-    color: #fff;
+    color: white;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -50,7 +51,7 @@
     border: 2px solid rgba(255,255,255,.2);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color:white;
     padding: 20px 45px 20px 30px;
 
 
@@ -60,7 +61,7 @@
 }
 .input-box input::placeholder{
     
-    color: #fff;
+    color: white;
 }
 .input-box .icons{
     position: absolute;

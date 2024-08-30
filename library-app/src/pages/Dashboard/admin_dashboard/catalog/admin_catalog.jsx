@@ -26,7 +26,7 @@ const Admin_Catalog = () => {
             <i className='bx bxs-user' ></i>
             <span className="info">
               <h3>
-                Admin
+                Librarian
               </h3>
               
             </span>
@@ -47,7 +47,7 @@ const Admin_Catalog = () => {
             <li>
               <i className='bx bxs-user-detail' ></i>
               <span className="info">
-                <h3>User</h3>
+                <h3>Students</h3>
               </span>
             </li>
           </Link>

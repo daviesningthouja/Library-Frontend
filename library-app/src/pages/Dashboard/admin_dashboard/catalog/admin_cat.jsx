@@ -42,7 +42,7 @@ const Admin_Cat= () => {
               <thead>
                 <tr>
                   <th>Name</th>
-                  <th>Contact</th>
+                  
                   <th>Department</th>
                 </tr>
               </thead>

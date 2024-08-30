@@ -49,19 +49,19 @@ function Admin_Sidebar({isSidebarOpen , setSidebarOpen}) {
           className={activeIndex === 1 ? 'active' : ''}
           onClick={() => handleClick(1)}
         >
-          <Link to="/admin/Dashboard/Administrator"><i className='bx bxs-user'></i> Admin</Link>
+          <Link to="/admin/Dashboard/Administrator"><i className='bx bxs-user'></i>Librarian</Link>
         </li>
         <li
           className={activeIndex === 2 ? 'active' : ''}
           onClick={() => handleClick(2)}
         >
-          <Link to="#"><i className='bx bxs-user-detail'></i> User</Link>
+          <Link to="#"><i className='bx bxs-user-detail'></i> Students</Link>
         </li>
         <li
           className={activeIndex === 3 ? 'active' : ''}
           onClick={() => handleClick(3)}
         >
-          <Link to="#"><i className='bx bx-collection'></i> Collection</Link>
+          <Link to="#"><i className='bx bx-collection'></i> Books</Link>
         </li>
       </ul>
           <ul className="side-menu">
